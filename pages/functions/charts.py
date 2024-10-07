@@ -73,13 +73,12 @@ def all_services_bar_graph(rod, height):
     return graph_all_services
 
 
-
 def ratio_graph(rod, height):
 
     df_ratio = (
         rod.group_by(pl.col("ratio"))
         .agg(pl.len().alias("total"))
-    )
+    ).sort("ratio", )
 
     print(df_ratio)
 
@@ -89,17 +88,33 @@ def ratio_graph(rod, height):
             alt.Color('ratio:N', scale=alt.Scale(scheme='category20'),
                       legend = alt.Legend(
                           orient='left',
-                          title="Ratio-----",
-                          labelFontSize=20,
-                          titleFontSize=25,
-                          labelOffset = 10,
-                          titlePadding = 15,
-                          padding=28,
-                          strokeColor="white",                          
+                          title="Ratio",
+                          labelFontSize=15,
+                          titleFontSize=30,
+                          labelOffset = 5,
+                          titlePadding = 18,
+                          padding=25,
+                          strokeColor="white",
+                          columns = 3                        
                       ))
         )
     )
 
-    graph_all_ratios = (ratios_bar).properties(height = height)
+    stack_labels = (
+        alt.Chart(df_ratio).mark_text(
+            align="center",
+            baseline="middle",
+            color="white",
+            fontSize=30,
+            dx = -30,
+            dy=20
+        ).encode(
+            alt.X("total:Q", stack="zero"),
+            text = alt.Text("total:Q"),
+        )
+    )
+
+
+    graph_all_ratios = (ratios_bar + stack_labels).properties(height = height).configure_axis(grid=False, domain=False)
 
     return(graph_all_ratios)

@@ -47,7 +47,7 @@ with cont:
     st.altair_chart(graph_all_services, use_container_width=True)
 
 
-    graph_all_ratio = ratio_graph(rod, 140)
+    graph_all_ratio = ratio_graph(rod, 150)
     st.altair_chart(graph_all_ratio, use_container_width=True)
 
 
