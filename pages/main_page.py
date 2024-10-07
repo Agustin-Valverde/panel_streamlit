@@ -37,7 +37,8 @@ left_col, right_col = st.columns([0.8, 0.2])
 
 ## LEFT COL
 with left_col:
-    cont = st.container(border=True, height=650)
+    st.subheader(f'Shippter Forwarding {date.today()}')
+    cont = st.container(border=True, height=650, )
 
 
 with cont:
@@ -49,6 +50,9 @@ with cont:
 
     graph_all_ratio = ratio_graph(rod, 150)
     st.altair_chart(graph_all_ratio, use_container_width=True)
+
+    graph_all_type = type_graph(rod, 150)
+    st.altair_chart(graph_all_type, use_container_width=True,)
 
 
 
@@ -67,7 +71,3 @@ with right_col:
     with st.container(border=True, height=205) as item_3:
         st.empty()
 
-
-
-
-st.write(rod)

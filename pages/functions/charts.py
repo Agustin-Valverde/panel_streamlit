@@ -21,7 +21,7 @@ def all_services_bar_graph(rod, height):
     bar_all_services = (
         alt.Chart(df_all_sevices).mark_bar().encode(
             alt.X('total:Q', stack="zero", title=None, axis = alt.Axis(ticks=False, labels=False)),
-            alt.Color('all_services:N', scale=alt.Scale(scheme='category20'),
+            alt.Color('all_services:N', scale=alt.Scale(scheme='dark2'),
                       legend = alt.Legend(
                           orient='left',
                           title="Servicios",
@@ -73,19 +73,19 @@ def all_services_bar_graph(rod, height):
     return graph_all_services
 
 
-def ratio_graph(rod, height):
+def ratio_graph(rod: pl.DataFrame, height):
 
     df_ratio = (
         rod.group_by(pl.col("ratio"))
         .agg(pl.len().alias("total"))
-    ).sort("ratio", )
+    ).sort("ratio")
 
     print(df_ratio)
 
     ratios_bar = (
         alt.Chart(df_ratio).mark_bar().encode(
             alt.X('total:Q', stack="zero", title=None, axis = alt.Axis(ticks=False, labels=False)),
-            alt.Color('ratio:N', scale=alt.Scale(scheme='category20'),
+            alt.Color('ratio:N', scale=alt.Scale(scheme='dark2'),
                       legend = alt.Legend(
                           orient='left',
                           title="Ratio",
@@ -111,10 +111,84 @@ def ratio_graph(rod, height):
         ).encode(
             alt.X("total:Q", stack="zero"),
             text = alt.Text("total:Q"),
+            order = alt.Order("ratio:N")
         )
     )
 
 
-    graph_all_ratios = (ratios_bar + stack_labels).properties(height = height).configure_axis(grid=False, domain=False)
+    total_text = (
+        alt.Chart(df_ratio).mark_text(
+            align="left",
+            baseline="middle",
+            dx = 10,
+            fontSize=30
+            )
+    ).encode(
+        alt.X('sum(total):Q', stack=True, title=None),
+        alt.Text('sum(total):Q'),
+        color=alt.value('white')
+    )
+
+    graph_all_ratios = (ratios_bar + stack_labels + total_text).properties(height = height).configure_axis(grid=False, domain=False)
 
     return(graph_all_ratios)
+
+
+def type_graph(rod: pl.DataFrame, height):
+
+    df_type = (
+        rod.group_by(pl.col("type"))
+        .agg(pl.len().alias("total"))
+    ).sort("type", descending=True)
+
+    print(df_type)
+
+    type_bar = (
+        alt.Chart(df_type).mark_bar().encode(
+            alt.X('total:Q', stack="zero", title=None, axis = alt.Axis(ticks=False, labels=False)),
+            alt.Color('type:N', scale=alt.Scale(scheme="dark2"),
+                      legend = alt.Legend(
+                          orient='left',
+                          title="Tipo",
+                          labelFontSize=15,
+                          titleFontSize=30,
+                          labelOffset = 5,
+                          titlePadding = 13,
+                          padding=30,
+                          strokeColor="black",
+                          columns = 2                     
+                      ))
+        )
+    )
+
+    stack_labels = (
+        alt.Chart(df_type).mark_text(
+            align="center",
+            baseline="middle",
+            color="white",
+            fontSize=30,
+            dx = -30,
+            dy=20
+        ).encode(
+            alt.X("total:Q", stack="zero"),
+            text = alt.Text("total:Q"),
+            order = alt.Order("type:N")
+        )
+    )
+
+    total_text = (
+        alt.Chart(df_type).mark_text(
+            align="left",
+            baseline="middle",
+            dx = 10,
+            fontSize=30
+            )
+    ).encode(
+        alt.X('sum(total):Q', stack=True, title=None),
+        alt.Text('sum(total):Q'),
+        color=alt.value('white')
+    )
+
+    graph_all_type = (type_bar + stack_labels + total_text).properties(height = height).configure_axis(grid=False, domain=False)
+
+    return(graph_all_type)
