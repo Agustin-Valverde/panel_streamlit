@@ -1,0 +1,195 @@
+createdAt,roi,client,type,incoterm,origin,salesRepresentative,insurance,customs,localTransport,freight,clientCurrentRatio,transport,shippingAgency,discount,etd,eta,all_services,ratio
+2024-10-01,ROA 386844,Proveedora de Artículos Dentales Ltda.,AIR,EXW,USLAX,Leonardo Martínez,true,true,true,true,0.72,AIR,MSL,,,,true,D
+2024-10-01,ROI M129191,H2O Sostenible SpA.,LCL,EXW,CNSHK,Benjamín Moore,true,false,false,true,0.15,SEA,CHARTER LINK,,,,false,A
+2024-09-30,,Empresa de Ingeniería Castillo Limitada,AIR,EXW,ITMXP,Tomás Hernández,false,false,false,true,0.33,AIR,MSL,200,,,false,B
+2024-09-30,ROI M129190,Sociedad comercial indigo spa,FCL,FOB,CNSHA,Nicolás Larenas,false,false,false,true,0.36,SEA,Shippter Forwarding,150,,,false,B
+2024-09-30,ROI M129188,Atacamita Investments SPA,FCL,FOB,CNTXG,Nicolás Larenas,true,true,true,true,0.67,SEA,Shippter Forwarding,,,,true,D
+2024-09-30,ROI M129189,Atacamita Investments SPA,FCL,FOB,CNTXG,Nicolás Larenas,true,true,true,true,0.66,SEA,Shippter Forwarding,,,,true,D
+2024-09-30,ROI M129186,VICOA IMPORTACIONES SPA,FCL,FOB,CNSHK,Mauricio Hernández,true,true,true,true,0.2,SEA,Shippter Forwarding,150,,,true,B
+2024-09-29,ROI M129187,Importadora y comercializadora top footwear spa,FCL,FOB,CNTAO,Tomás Hernández,false,true,false,true,0.46,SEA,Shippter Forwarding,,,,false,C
+2024-09-28,ROA 386394,NULATAM CHILE SPA,AIR,EXW,ITMXP,Nicolás Larenas,true,true,true,true,0.2,AIR,MSL,150,,,true,B
+2024-09-27,ROI 386280,Importadora y Exportadora Fulltex Limitada,LCL,FOB,COBUN,Benjamín Moore,true,false,false,true,0.0,SEA,MSL,,,,false,A
+2024-09-27,ROI M129185,FERDEL CHILE S.A,FCL,FOB,CNSHA,Benjamín Moore,true,true,true,true,0.48,SEA,Shippter Forwarding,,,,true,C
+2024-09-27,ROI M129184,FERDEL CHILE S.A,FCL,FOB,CNSHA,Benjamín Moore,true,true,true,true,0.47,SEA,Shippter Forwarding,,,,true,C
+2024-09-27,ROA 386333,Informática Tier 1 SPA,AIR,EXW,USMIA,Nicolás Silva,true,true,true,true,0.82,AIR,MSL,,,,true,E
+2024-09-27,ROI 386218,CONDENSA S.A.,LCL,EXW,ITGOA,Benjamín Moore,true,true,true,true,0.2,SEA,MSL,,,,true,B
+2024-09-27,ROI M129183,SOCIEDAD COMERCIAL PLAY SPA,FCL,FOB,CNXMN,Nicolás Larenas,true,true,true,true,0.23,SEA,Shippter Forwarding,,,,true,B
+2024-09-27,ROA 386277,TAYLOR AUTOMATIZACION S.A.,AIR,EXW,ITMXP,Benjamín Moore,true,true,true,true,0.76,AIR,MSL,,,,true,D
+2024-09-27,ROA 386283,COMERCIAL MAQUINAS Y SERVICIOS MAQUISER LIMITADA,AIR,EXW,ESMAD,Benjamín Moore,true,true,true,true,0.24,AIR,MSL,100,,,true,B
+2024-09-27,ROI M129182,COMERCIAL MAQUINAS Y SERVICIOS MAQUISER LIMITADA,LCL,FCA,CNSHA,Benjamín Moore,true,true,true,true,0.21,SEA,CHARTER LINK,,,,true,B
+2024-09-27,ROI 386149,Obolo Chocolate SpA,FCL,FOB,PECLL,Nicolás Silva,true,true,true,true,0.03,SEA,MSL,,,,true,A
+2024-09-27,ROI 386099,Eroshop SPA,FCL,FOB,USMIA,Benjamín Moore,true,false,true,true,0.48,SEA,MSL,,,,false,C
+2024-09-27,ROI M129181,Importadora GD Ltda,FCL,FOB,CNTAO,Tomás Hernández,false,false,false,true,0.08,SEA,Shippter Forwarding,,,,false,A
+2024-09-27,ROI M129180,Wild Labs SPA,FCL,FOB,CNTAO,Benjamín Moore,true,false,false,true,0.22,SEA,Shippter Forwarding,,,,false,B
+2024-09-27,ROA 386051,Comercial Basau Limitada,AIR,FCA,USMIA,Leonardo Martínez,false,false,false,true,0.28,AIR,MSL,200,,,false,B
+2024-09-26,ROI M129179,RODA CORP SPA,LCL,FOB,KRPUS,Benjamín Moore,true,true,true,true,0.43,SEA,CHARTER LINK,,2024-10-16,2024-11-23,true,C
+2024-09-26,ROI M129178,INVERSIONES E INMOBILIARIA PEZOA Y GALMEZ LIMITADA,LCL,FOB,CNSHA,Leonardo Martínez,true,true,true,true,0.0,SEA,CHARTER LINK,100,,,true,A
+2024-09-26,ROI 386018,Ferrepack Spa,LCL,FOB,CNGZG,Ailyn Corona,true,true,true,true,0.22,SEA,MSL,100,,,true,B
+2024-09-26,ROI 385609,Aditivos e Ingredientes para Alimentos Adiplus SpA,FCL,EXW,DKAAR,Leonardo Martínez,true,false,false,true,0.32,SEA,MSL,200,,,false,B
+2024-09-26,ROI 385949,Topmedic SPA,LCL,EXW,USNYC,Leonardo Martínez,false,false,true,true,0.38,SEA,MSL,150,2024-10-11,2024-11-03,false,B
+2024-09-26,ROI M129176,VICOA IMPORTACIONES SPA,FCL,FOB,CNNGB,Mauricio Hernández,true,true,true,true,0.17,SEA,Shippter Forwarding,150,2024-10-09,,true,A
+2024-09-26,ROI M129174,Comercializadora Needle SA,LCL,EXW,CNNGB,Mauricio Hernández,true,true,true,true,0.64,SEA,CHARTER LINK,,,,true,D
+2024-09-26,ROA 385972,VSEC Chile Ltda.,AIR,EXW,ESMAD,Benjamín Moore,true,true,true,true,0.06,AIR,MSL,,,,true,A
+2024-09-26,ROI 385768,EMPTER CHILE SPA,LCL,EXW,CNSHA,Mauricio Hernández,true,true,true,true,0.16,SEA,MSL,150,,,true,A
+2024-09-26,ROI M129173,JRP INGENIERIA Y CONSTRUCCION SpA,LCL,FOB,CNSHA,Ignacio Tapia,false,true,true,true,0.5,SEA,CHARTER LINK,,,,false,C
+2024-09-26,ROI 385781,H2O Sostenible SpA.,LCL,EXW,BEANR,Benjamín Moore,true,false,false,true,0.1,SEA,MSL,,,,false,A
+2024-09-26,ROA 385841,FILTERGROUP CHILE SPA,AIR,EXW,CNPVG,Leonardo Martínez,true,true,true,true,0.42,AIR,MSL,150,,,true,C
+2024-09-25,ROI 385766,Importadora Icareti Ltda.,LCL,EXW,TRIZM,Ignacio Tapia,true,true,true,true,0.0,SEA,MSL,200,,,true,A
+2024-09-25,ROI M129171,COMERCIAL ANDEXPORT LIMITADA,FCL,FOB,CNSHK,Ailyn Corona,false,false,false,true,0.03,SEA,Shippter Forwarding,,2024-10-13,2024-12-05,false,A
+2024-09-25,ROI 385465,T-Hablo SpA,LCL,EXW,ITGOA,Benjamín Moore,true,true,true,true,0.33,SEA,MSL,,2024-10-10,2024-11-13,true,B
+2024-09-25,ROI M129167,Edge SpA,FCL,FOB,CNSHA,Benjamín Moore,true,true,true,true,0.85,SEA,Shippter Forwarding,,,,true,E
+2024-09-25,ROI M129168,Edge SpA,FCL,FOB,CNSHK,Benjamín Moore,true,true,true,true,0.85,SEA,Shippter Forwarding,,,,true,E
+2024-09-25,ROI M129169,Importadora Monserrat Limitada,FCL,FOB,CNTAO,Nicolás Larenas,true,false,false,true,0.1,SEA,Shippter Forwarding,250,2024-10-07,2024-11-17,false,A
+2024-09-25,ROI M129170,IMPORTADORA Y COMERCIALIZADORA ALIAGA LIMITADA,FCL,FOB,CNSHK,Tomás Hernández,true,true,true,true,0.17,SEA,Shippter Forwarding,150,2024-10-12,2024-11-18,true,A
+2024-09-25,ROI 385400,SOC COMERCIAL Y PROFESIONAL COIMPEX CHILE LTDA,LCL,EXW,BEANR,Nicolás Larenas,true,false,false,true,0.15,SEA,MSL,,,,false,A
+2024-09-25,ROA M129166,MB MULTISERVICIOS CHILE SPA,AIR,CIF,CAYYZ,Mauricio Hernández,true,true,false,false,0.55,AIR,EMBARCADOR DEL CLIENTE,,2024-09-12,2024-09-25,false,C
+2024-09-25,ROA 385332,ANIMALMARKET SPA,AIR,EXW,USMIA,Tomás Hernández,true,true,true,true,0.31,AIR,MSL,100,,,true,B
+2024-09-25,ROI 385354,FARO TRADE SPA,FCL,FOB,ITGOA,Nicolás Silva,true,true,true,true,0.3,SEA,MSL,50,,,true,B
+2024-09-25,ROI M129165,Edge SpA,FCL,FOB,CNSHK,Benjamín Moore,true,true,true,true,0.84,SEA,Shippter Forwarding,,,,true,E
+2024-09-25,ROI M129164,Automotora Los Avellanos SpA,FCL,FOB,CNTAO,Leonardo Martínez,true,true,false,true,0.74,SEA,Shippter Forwarding,,2024-10-11,2024-11-27,false,D
+2024-09-24,ROA 385288,EMPTER CHILE SPA,AIR,EXW,CNPVG,Mauricio Hernández,true,true,true,true,0.16,AIR,MSL,150,,,true,A
+2024-09-24,ROA 385276,Importadora Comercial Holley SPA,AIR,FOB,BRVCP,Ignacio Tapia,true,true,true,true,0.0,AIR,MSL,150,,,true,A
+2024-09-24,ROA 385589,GRUPSA CHILE SISTEMAS DE PUERTAS LIMITADA,AIR,EXW,CNPVG,Ignacio Tapia,true,true,true,true,0.33,AIR,MSL,200,,,true,B
+2024-09-24,ROA 384926,TRIGO TECHNOLOGIES LIMITADA,AIR,EXW,TWTPE,Tomás Hernández,true,true,true,true,0.2,AIR,MSL,200,,,true,B
+2024-09-24,ROI 385434,ITALSE SPA.,LCL,FOB,CNGZG,Benjamín Moore,true,true,true,true,0.18,SEA,MSL,,,,true,A
+2024-09-24,ROA 384860,Tecnogrow SpA,AIR,EXW,CNPVG,Leonardo Martínez,false,false,false,true,0.0,AIR,MSL,150,,,false,A
+2024-09-24,ROI M129162,Laboratorio Internacional Pharmacorp SBO S.P.A,FCL,FOB,CNSHA,Benjamín Moore,true,true,true,true,0.51,SEA,Shippter Forwarding,,2024-10-02,2024-11-11,true,C
+2024-09-24,ROI 384861,COMERCIALIZADORA Y DISTRIBUIDORA JOFRAN SPA,FCL,FOB,COBUN,Nicolás Larenas,false,false,true,true,0.0,SEA,MSL,,,,false,A
+2024-09-24,ROI M129161,INVERSIONES LA ESPERANZA CHILE LIMITADA,LCL,CIF,JPTYO,Nicolás Silva,false,true,true,false,0.46,SEA,EMBARCADOR DEL CLIENTE,,2024-07-29,2024-10-03,false,C
+2024-09-24,ROI M129160,PROVOTEL SPA,FCL,FOB,CNSHA,Benjamín Moore,true,true,true,true,0.0,SEA,Shippter Forwarding,,2024-10-06,,true,A
+2024-09-24,ROI 384770,INVERSIONES POINTBREAK SPA,LCL,FCA,NLRTM,Benjamín Moore,true,true,true,true,0.95,SEA,MSL,,,,true,E
+2024-09-24,ROA 384757,TE GOURMET SA,AIR,EXW,CAYVR,Benjamín Moore,true,true,true,true,0.54,AIR,MSL,,,,true,C
+2024-09-24,ROI M129158,Comercializadora Newsouvenir LTDA,LCL,EXW,CNSHK,Mauricio Hernández,true,true,true,true,0.27,SEA,CHARTER LINK,100,2024-10-20,2024-11-29,true,B
+2024-09-24,ROI M129159,EQUIPOS MARINOS S.p.A,LCL,FOB,CNXMN,Ailyn Corona,true,false,false,true,0.13,SEA,CHARTER LINK,,2024-10-13,2024-11-28,false,A
+2024-09-24,ROI M129157,FABRICACION VISTALIBRE LIMITADA,FCL,FOB,CNTXG,Benjamín Moore,true,true,false,true,0.19,SEA,Shippter Forwarding,150,2024-10-06,2024-11-10,false,A
+2024-09-23,ROI 384475,Comercializadora Needle SA,LCL,FOB,USMIA,Mauricio Hernández,true,true,true,true,0.63,SEA,MSL,,2024-10-10,2024-11-05,true,D
+2024-09-23,ROI 384514,Asesorias e Inversiones Paga SpA,LCL,FOB,CNNGB,Leonardo Martínez,false,false,true,true,0.39,SEA,MSL,150,2024-10-01,2024-11-16,false,B
+2024-09-23,ROI M129152,Atacamita Investments SPA,FCL,FOB,CNTXG,Nicolás Larenas,true,true,true,true,0.71,SEA,Shippter Forwarding,,,,true,D
+2024-09-23,ROI M129153,Atacamita Investments SPA,FCL,FOB,CNSHA,Nicolás Larenas,true,true,true,true,0.7,SEA,Shippter Forwarding,,,,true,D
+2024-09-23,ROI M129154,Atacamita Investments SPA,FCL,FOB,CNSHA,Nicolás Larenas,true,true,true,true,0.69,SEA,Shippter Forwarding,,,,true,D
+2024-09-23,ROI M129155,Atacamita Investments SPA,FCL,FOB,CNSHA,Nicolás Larenas,true,true,true,true,0.68,SEA,Shippter Forwarding,,,,true,D
+2024-09-23,ROI M129151,Asesorias e Inversiones Paga SpA,FCL,FOB,CNNGB,Leonardo Martínez,false,false,true,true,0.38,SEA,Shippter Forwarding,150,2024-10-16,2024-11-23,false,B
+2024-09-23,ROI 384660,CORTINAS ROLLER SCANDINAVIA SPA,LCL,FCA,CNSHA,Benjamín Moore,true,true,true,true,0.0,SEA,MSL,100,2024-10-11,2024-11-23,true,A
+2024-09-23,ROI M129156,Atacamita Investments SPA,FCL,FOB,CNTXG,Nicolás Larenas,true,true,true,true,0.66,SEA,Shippter Forwarding,,,,true,D
+2024-09-23,ROA 384294,Informática Tier 1 SPA,AIR,EXW,USDFW,Nicolás Silva,true,true,true,true,0.13,AIR,MSL,,2024-10-03,2024-10-07,true,A
+2024-09-23,ROA 384347,Sommer y Urrutia Limitada,AIR,FCA,CNPVG,Benjamín Moore,true,true,true,true,0.05,AIR,MSL,100,2024-10-09,2024-10-19,true,A
+2024-09-23,ROI 384307,FARMACEUTICA ACUA NASER SA,LCL,FOB,CNNGB,Nicolás Larenas,true,true,true,true,0.18,SEA,MSL,,2024-10-13,2024-11-23,true,A
+2024-09-23,ROA 385065,VISIONAY SPA,AIR,EXW,FRCDG,Benjamín Sotomayor,true,true,true,true,0.0,AIR,MSL,,2024-10-04,2024-10-09,true,A
+2024-09-23,ROI M129150,DISTRIBUIDORA ALTA VISIBILIDAD HI VIZ LTDA,LCL,FOB,CNXMN,Leonardo Martínez,true,true,true,true,1.0,SEA,CHARTER LINK,,2024-10-13,2024-11-28,true,E
+2024-09-21,ROI 384130,Holding QB Consultores SpA,LCL,FOB,CNSHA,Mauricio Hernández,true,true,true,true,0.62,SEA,MSL,,2024-10-04,2024-11-15,true,D
+2024-09-21,ROI M129149,FERDEL CHILE S.A,FCL,FOB,CNSHA,Benjamín Moore,true,true,true,true,0.43,SEA,Shippter Forwarding,,,,true,C
+2024-09-20,ROI M129148,Importaciones Juan A. Gomez EIRL,FCL,FOB,CNSHK,Mauricio Hernández,true,false,false,true,0.22,SEA,Shippter Forwarding,,2024-10-07,2024-11-25,false,B
+2024-09-19,ROI M129147,Comercial Sanpro Spa,LCL,FOB,CNSHA,Ailyn Corona,true,true,true,true,0.3,SEA,CHARTER LINK,,2024-10-05,2024-11-19,true,B
+2024-09-18,ROI 384129,COMERCIAL MAQUINAS Y SERVICIOS MAQUISER LIMITADA,LCL,EXW,CNYTN,Benjamín Moore,true,true,true,true,0.17,SEA,MSL,,,,true,A
+2024-09-17,ROA 384111,Cosmeticos Elicina Ltda,AIR,EXW,CNPVG,Tomás Hernández,true,true,true,true,0.39,AIR,MSL,200,2024-09-30,2024-10-10,true,B
+2024-09-17,ROI M129146,Sociedad Comercial JJ SpA.,LCL,EXW,CNYTN,Benjamín Moore,true,false,true,true,0.43,SEA,CHARTER LINK,,,,false,C
+2024-09-16,ROA 383891,VIÑA VALDIVIESO SA,AIR,EXW,ESMAD,Benjamín Moore,false,false,false,true,0.0,AIR,MSL,100,,,false,A
+2024-09-16,ROI M129145,Tecnicas Modulares e Industriales Chile Ltda,LCL,FOB,CNTAO,Benjamín Moore,true,false,true,true,0.26,SEA,CHARTER LINK,,2024-10-05,2024-11-09,false,B
+2024-09-16,ROI M129144,SOCIEDAD COMERCIAL PROMOBOX LTDA.,FCL,FOB,CNNGB,Benjamín Moore,true,true,false,true,0.44,SEA,Shippter Forwarding,100,2024-10-07,2024-11-11,false,C
+2024-09-16,ROI 383882,Priscila Crescencia Viguera Fuentes,LCL,EXW,CNNGB,Ailyn Corona,true,true,true,true,0.3,SEA,MSL,200,,,true,B
+2024-09-16,ROA 383711,COMERCIAL BM BASICS LTDA,AIR,FOB,PELIM,Nicolás Larenas,true,true,true,true,0.11,AIR,MSL,200,2024-09-29,2024-09-30,true,A
+2024-09-16,ROI 383703,Sociedad Repuestos España LTDA,LCL,FOB,KRPUS,Benjamín Moore,true,true,true,true,0.33,SEA,MSL,,2024-10-02,2024-11-07,true,B
+2024-09-16,ROI 383677,SHEEPDOGZ SPA,LCL,FOB,CNFOC,Nicolás Silva,true,true,true,true,0.5,SEA,MSL,,2024-09-29,2024-11-30,true,C
+2024-09-16,ROA 383636,COMERCIO JOSE MIGUEL COSTA HERNANDEZ E.I.R.L.,AIR,FOB,CNSZX,Benjamín Moore,true,true,true,true,0.22,AIR,MSL,,,,true,B
+2024-09-13,ROA 383542,COMERCIALIZADORA BKL SPA,AIR,FCA,USMIA,Nicolás Larenas,true,true,false,true,0.2,AIR,MSL,,,,false,B
+2024-09-13,ROI 386101,GH FITNESS CHILE SA,LCL,FOB,CNSHA,Benjamín Moore,true,true,true,true,0.0,SEA,MSL,100,,,true,A
+2024-09-13,ROA 383532,TSCOM SPA,AIR,EXW,HKHKG,Benjamín Moore,true,false,false,true,0.06,AIR,MSL,,2024-09-30,2024-10-06,false,A
+2024-09-13,ROI 377929,INVERSIONES DEPORTE TOTAL SPA,FCL,FCA,USMIA,Mauricio Hernández,true,false,false,true,0.25,SEA,MSL,100,2024-10-17,2024-11-06,false,B
+2024-09-13,ROI M129142,Industrial y Comercial Drugplastics Arcadia Ltda,LCL,FCA,CNNGB,Leonardo Martínez,true,true,true,true,0.33,SEA,CHARTER LINK,100,2024-10-05,2024-11-09,true,B
+2024-09-13,ROI 383073,Sanova Group SpA,LCL,EXW,AUSYD,Nicolás Silva,true,true,true,true,0.07,SEA,MSL,,2024-10-05,2024-11-30,true,A
+2024-09-13,ROI M129143,FORESTAL Y COMERCIAL AYSEN LIMITADA,LCL,FOB,CNSHA,Benjamín Moore,true,true,true,true,0.18,SEA,CHARTER LINK,100,2024-10-05,2024-11-19,true,A
+2024-09-12,ROI M129141,Contra Corriente SPA,FCL,FOB,CNTXG,Benjamín Moore,true,true,true,true,0.0,SEA,Shippter Forwarding,100,2024-10-02,2024-11-18,true,A
+2024-09-12,ROA 382723,DNk Water spa,AIR,EXW,GBLHR,Ignacio Tapia,false,false,false,true,0.5,AIR,MSL,100,2024-09-22,2024-09-24,false,C
+2024-09-12,ROI M129140,sociedad skatelife ltda,LCL,FOB,CNSHK,Tomás Hernández,true,true,true,true,0.0,SEA,CHARTER LINK,250,2024-10-04,2024-10-14,true,A
+2024-09-12,ROI 383154,Inversiones e Inmobiliaria Martin y Ramirez SpA.,LCL,EXW,SGSIN,Nicolás Silva,true,true,true,true,0.82,SEA,MSL,,2024-10-07,2024-11-30,true,E
+2024-09-12,ROI M129139,Inversiones e Inmobiliaria Martin y Ramirez SpA.,LCL,FOB,CNSHA,Nicolás Silva,true,true,true,true,0.8,SEA,CHARTER LINK,100,2024-09-28,2024-11-04,true,E
+2024-09-12,ROI M129138,Fun for All spa,FCL,EXW,CNSHK,Ignacio Tapia,true,true,true,true,0.3,SEA,Shippter Forwarding,150,2024-10-12,2024-11-18,true,B
+2024-09-12,ROI M129137,Automotora Los Avellanos SpA,FCL,FOB,CNTAO,Leonardo Martínez,true,true,false,true,0.69,SEA,Shippter Forwarding,,2024-10-04,2024-11-24,false,D
+2024-09-12,ROI 383015,INVERSIONES DEPORTE TOTAL SPA,LCL,EXW,USLGB,Mauricio Hernández,true,false,false,true,0.24,SEA,MSL,50,2024-10-03,2024-11-02,false,B
+2024-09-12,ROI 383097,SOLUCIONES INTEGRALES DIGITALES SID SPA,LCL,EXW,ESBCN,Mauricio Hernández,true,true,true,true,0.26,SEA,MSL,,2024-10-14,2024-11-23,true,B
+2024-09-11,ROA 382918,Textil Cohen y Gomberoff Ltda.,AIR,EXW,CNPVG,Leonardo Martínez,true,false,true,true,0.33,AIR,MSL,,2024-09-27,2024-10-01,false,B
+2024-09-11,ROI M129135,Aislaciones térmicas industriales Aguirre y Aguirre S.A.,FCL,FOB,CNNKG,Benjamín Moore,true,true,true,true,0.15,SEA,Shippter Forwarding,100,2024-09-30,2024-11-19,true,A
+2024-09-11,ROI M129133,Edge SpA,FCL,FOB,VNHPH,Benjamín Moore,true,true,true,true,0.87,SEA,Shippter Forwarding,,,,true,E
+2024-09-11,ROA 382726,PRQ SPA,AIR,FOB,CNPVG,Ailyn Corona,true,true,true,true,0.05,AIR,MSL,200,,,true,A
+2024-09-11,ROA M129132,CENTRO OFTALMOLOGICO LASER SAN MARTIN SPA,AIR,CIF,USLAX,Benjamín Sotomayor,true,true,true,false,0.0,AIR,EMBARCADOR DEL CLIENTE,,2024-09-05,2024-09-11,false,A
+2024-09-11,ROI 382852,SOCIEDAD COMERCIAL UBUNTU LIMITADA,LCL,FOB,JPTYO,Benjamín Moore,true,true,true,true,0.91,SEA,MSL,,2024-10-02,2024-11-10,true,E
+2024-09-11,ROI M129130,Comercial Carrosunidos SpA,LCL,EXW,DEHAM,Benjamín Moore,true,true,true,true,0.33,SEA,Team Log,,2024-10-07,2024-11-13,true,B
+2024-09-11,ROI M129131,SOCIEDAD COMERCIALIZADORA Y DISTRIBUIDORA INTELIGENCIA Y SEGURIDAD SPA,FCL,FOB,CNTAO,Benjamín Moore,true,true,true,true,0.3,SEA,Shippter Forwarding,,2024-09-30,2024-11-11,true,B
+2024-09-10,ROI M129129,Wild Labs SPA,FCL,FOB,CNTAO,Benjamín Moore,true,false,false,true,0.09,SEA,Shippter Forwarding,,2024-09-29,2024-11-04,false,A
+2024-09-10,ROI 382559,IMPORTVILLA SPA,LCL,EXW,USLGB,Benjamín Moore,true,false,false,true,0.3,SEA,MSL,,2024-10-09,2024-11-07,false,B
+2024-09-10,,Aditivos e Ingredientes para Alimentos Adiplus SpA,FCL,EXW,MXZLO,Leonardo Martínez,true,false,false,true,0.37,SEA,Pluscargo,150,,,false,B
+2024-09-10,ROI M129126,Edge SpA,FCL,FOB,CNSHK,Benjamín Moore,true,true,true,true,0.86,SEA,Shippter Forwarding,,,,true,E
+2024-09-10,ROI 382529,Holding QB Consultores SpA,LCL,FOB,CNNGB,Mauricio Hernández,true,true,true,true,0.6,SEA,MSL,100,2024-10-13,2024-11-18,true,D
+2024-09-10,ROA 382382,Sociedad Abastecedora Industrial SA,AIR,EXW,USMIA,Leonardo Martínez,true,false,false,true,0.15,AIR,MSL,200,2024-09-21,2024-09-22,false,A
+2024-09-10,ROI 382372,PRODUCTOS Y SOLUCIONES CRIANDO SPA,LCL,FOB,INCCU,Benjamín Moore,true,true,true,true,0.0,SEA,MSL,100,,,true,A
+2024-09-10,ROI M129123,Greyfox Outdoor spa,FCL,FOB,CNXMN,Benjamín Moore,false,false,true,true,0.34,SEA,Shippter Forwarding,,2024-09-25,2024-11-11,false,B
+2024-09-10,ROI M129122,FAGGIONI TECHNOLOGIES Y CONSULTING S.A.,LCL,EXW,KRPUS,Ailyn Corona,true,true,true,true,0.11,SEA,CHARTER LINK,,2024-10-02,2024-11-09,true,A
+2024-09-10,ROA 382700,FAGGIONI TECHNOLOGIES Y CONSULTING S.A.,AIR,EXW,KRICN,Ailyn Corona,true,true,true,true,0.18,AIR,MSL,,2024-09-28,2024-10-01,true,A
+2024-09-10,ROI M129127,CLAPPS CHILE SPA,FCL,FOB,CNNHN,Benjamín Moore,false,false,false,true,0.0,SEA,Shippter Forwarding,100,,,false,A
+2024-09-09,ROI M129121,Inversiones Santa María Limitada,FCL,FOB,CNNGB,Mauricio Hernández,true,true,true,true,0.09,SEA,Shippter Forwarding,,2024-09-19,2024-11-03,true,A
+2024-09-09,ROA 382053,TCL Group SPA,AIR,EXW,NLAMS,Nicolás Larenas,true,false,false,true,0.0,AIR,MSL,200,2024-09-24,2024-09-29,false,A
+2024-09-09,ROI M129134,FORESTAL Y COMERCIAL AYSEN LIMITADA,LCL,EXW,CNSHA,Benjamín Moore,true,true,true,true,0.09,SEA,CHARTER LINK,100,,,true,A
+2024-09-09,ROI M129119,INVERSIONES POINTBREAK SPA,FCL,FOB,CNNGB,Benjamín Moore,true,true,true,true,0.95,SEA,Shippter Forwarding,,2024-10-08,2024-11-11,true,E
+2024-09-09,ROI M129120,INVERSIONES POINTBREAK SPA,FCL,FOB,CNNGB,Benjamín Moore,true,true,true,true,0.95,SEA,Shippter Forwarding,,2024-09-26,2024-10-28,true,E
+2024-09-09,ROI M129118,Grupo Ilumina Spa,LCL,FOB,CNSZP,Leonardo Martínez,true,true,true,true,0.27,SEA,CHARTER LINK,,2024-09-25,2024-11-14,true,B
+2024-09-09,ROI 381954,SOCKS LAB SPA,LCL,FOB,CNNGB,Leonardo Martínez,true,true,true,true,0.36,SEA,MSL,,2024-10-01,2024-10-31,true,B
+2024-09-09,ROI 381958,Comercializadora Needle SA,LCL,EXW,GBTIL,Mauricio Hernández,true,true,true,true,0.64,SEA,MSL,,2024-09-22,2024-10-30,true,D
+2024-09-08,ROI 381893,Multimax ltda,LCL,FOB,CNTAO,Benjamín Moore,true,true,true,true,0.0,SEA,MSL,,2024-09-29,2024-11-04,true,A
+2024-09-06,ROA 381832,EVOLUCIÓN E INNOVACIÓN DE PROCESOS SPA,AIR,EXW,CNPVG,Nicolás Silva,true,true,true,true,0.0,AIR,MSL,100,2024-09-30,2024-10-05,true,A
+2024-09-06,ROI M129117,TECNOLOGIA Y COMPUTACION EMMETT LTDA,FCL,FOB,CNSHK,Ailyn Corona,true,true,true,true,0.05,SEA,Shippter Forwarding,200,2024-09-28,2024-11-09,true,A
+2024-09-06,ROI 381652,OPC & TRADE SPA.,FCL,EXW,USBAL,Benjamín Moore,true,false,true,true,0.18,SEA,MSL,,2024-09-20,2024-10-15,false,A
+2024-09-06,ROI M129114,Asesorias e Inversiones Paga SpA,FCL,FOB,CNTAO,Leonardo Martínez,true,false,true,true,0.38,SEA,Shippter Forwarding,,2024-10-01,2024-10-24,false,B
+2024-09-06,ROI M129115,SEGURIDAD FS SPA,FCL,FOB,CNNGB,Benjamín Moore,true,true,true,true,1.0,SEA,Shippter Forwarding,,2024-09-24,2024-10-31,true,E
+2024-09-06,ROA 381771,INDUSTRIAS ACRIBOL SPA,AIR,EXW,CNPVG,Ailyn Corona,true,true,true,true,1.0,AIR,MSL,200,,,true,E
+2024-09-06,ROI M129128,la marma s.a,FCL,FOB,CNTAG,Tomás Hernández,false,false,false,true,0.0,SEA,Shippter Forwarding,300,2024-09-30,2024-11-30,false,A
+2024-09-06,ROI 382121,Prion Lab SpA,LCL,FOB,CNTAO,Mauricio Hernández,true,false,false,true,0.0,SEA,MSL,,2024-09-24,2024-11-01,false,A
+2024-09-06,ROI M129116,Alco Medical SpA,LCL,EXW,CNSHA,Tomás Hernández,true,true,true,true,0.22,SEA,Team Log,200,2024-09-27,2024-11-04,true,B
+2024-09-06,ROA 381765,TAYLOR AUTOMATIZACION S.A.,AIR,FOB,KRICN,Benjamín Moore,true,true,true,true,0.7,AIR,MSL,,2024-09-25,2024-09-27,true,D
+2024-09-06,ROA 381634,Muñoz Avila y Compañia Limitada/ Goldenblaze Limitada,AIR,FOB,USMIA,Benjamín Moore,true,true,true,true,0.88,AIR,MSL,,2024-09-21,2024-09-22,true,E
+2024-09-06,ROA 381710,FABRICACION VISTALIBRE LIMITADA,AIR,FCA,BRVCP,Benjamín Moore,true,false,false,true,0.23,AIR,MSL,100,2024-09-29,2024-09-30,false,B
+2024-09-06,ROI M129112,FERDEL CHILE S.A,FCL,FOB,CNTAO,Benjamín Moore,true,true,true,true,0.47,SEA,Shippter Forwarding,,2024-09-19,2024-11-04,true,C
+2024-09-06,ROI 381633,INVERSIONES POINTBREAK SPA,FCL,FOB,NLRTM,Benjamín Moore,true,true,true,true,0.95,SEA,MSL,,2024-09-27,2024-11-05,true,E
+2024-09-06,ROI M129111,Importadora Sumps Ltda,LCL,EXW,DEHAM,Benjamín Moore,true,true,false,true,0.1,SEA,Team Log,150,2024-09-22,2024-10-23,false,A
+2024-09-05,ROI 381349,ASESORIAS E INVERSIONES NTA LIMITADA,LCL,EXW,INMUN,Leonardo Martínez,true,true,true,true,0.0,SEA,MSL,,2024-09-30,2024-11-30,true,A
+2024-09-05,ROA 382167,Itepro Ingenieria Spa,AIR,EXW,USMIA,Nicolás Larenas,false,false,false,true,0.2,AIR,MSL,,2024-09-21,2024-09-22,false,B
+2024-09-05,ROI M129110,Edge SpA,FCL,FOB,CNSHA,Benjamín Moore,true,true,true,true,0.86,SEA,Shippter Forwarding,,,,true,E
+2024-09-05,ROI 381441,RAGNAR CHILE SPA,LCL,EXW,ESBCN,Leonardo Martínez,true,true,false,true,0.12,SEA,MSL,,2024-10-13,2024-11-23,false,A
+2024-09-05,ROI M129109,Fuegoclima spa,LCL,FOB,CNNGB,Ignacio Tapia,false,false,false,true,0.14,SEA,CHARTER LINK,150,2024-09-27,2024-11-01,false,A
+2024-09-05,ROA 381304,SOCIEDAD COMERCIAL PROFESIONAL SUBMARINA PROSUB LIMITADA,AIR,FOB,USMIA,Mauricio Hernández,true,true,true,true,0.0,AIR,MSL,100,,,true,A
+2024-09-05,ROI M129108,Vonik Spa,LCL,EXW,CNSHK,Mauricio Hernández,true,true,true,true,0.0,SEA,CHARTER LINK,100,2024-09-28,2024-11-14,true,A
+2024-09-05,ROI 381233,Comercializadora RDL Spa,LCL,EXW,ITGOA,Nicolás Larenas,true,true,true,true,0.18,SEA,MSL,250,2024-09-20,2024-10-22,true,A
+2024-09-05,ROI M129105,TE GOURMET SA,LCL,EXW,DEHAM,Benjamín Moore,true,false,false,true,0.41,SEA,Team Log,,2024-09-22,2024-10-23,false,C
+2024-09-05,ROI M129106,COMERCIAL WOLF SPA,FCL,EXW,CNNGB,Mauricio Hernández,true,false,false,true,0.06,SEA,Shippter Forwarding,200,2024-10-02,2024-11-12,false,A
+2024-09-05,ROI M129107,Grant Spa,FCL,FOB,CNSHA,Benjamín Moore,true,true,true,true,0.25,SEA,Shippter Forwarding,,2024-10-05,2024-11-11,true,B
+2024-09-05,ROA 381199,TAYLOR AUTOMATIZACION S.A.,AIR,EXW,USMIA,Benjamín Moore,true,true,true,true,0.67,AIR,MSL,,2024-09-14,2024-09-14,true,D
+2024-09-04,ROA 381028,Intermob S.A.,AIR,EXW,CNPVG,Benjamín Moore,true,false,false,true,0.31,AIR,MSL,,2024-09-18,2024-09-28,false,B
+2024-09-04,ROI 380575,Aditivos e Ingredientes para Alimentos Adiplus SpA,FCL,EXW,DKAAR,Leonardo Martínez,true,false,false,true,0.37,SEA,MSL,200,,,false,B
+2024-09-04,ROI 381037,NAPOKI & TRINCADO LIMITADA,LCL,FOB,USMIA,Mauricio Hernández,true,false,false,true,0.2,SEA,MSL,,2024-09-22,2024-10-17,false,B
+2024-09-04,ROI M129102,Comercializadora Santa Marta SpA,FCL,FOB,CNGZG,Benjamín Moore,true,true,true,true,0.0,SEA,Shippter Forwarding,,2024-09-29,2024-12-02,true,A
+2024-09-04,ROI M129103,HEAVENWARD ASCENSORES S A,LCL,EXW,DEHAM,Ailyn Corona,false,false,false,true,0.44,SEA,Team Log,,2024-09-22,2024-10-23,false,C
+2024-09-04,ROI M129101,PENTAGON S.A. ARTICULOS DE SEGURIDAD Y PRODUCTOS INDUSTRIALES S.A.,LCL,FCA,TWKEL,Nicolás Larenas,true,true,true,true,0.19,SEA,CHARTER LINK,250,2024-09-21,2024-11-04,true,A
+2024-09-04,ROI 380899,MB MULTISERVICIOS CHILE SPA,LCL,FCA,USMIA,Mauricio Hernández,true,true,true,true,0.53,SEA,MSL,,2024-10-10,2024-10-29,true,C
+2024-09-04,ROI 380881,CONDENSA S.A.,LCL,EXW,USMIA,Benjamín Moore,true,true,true,true,0.14,SEA,MSL,,2024-10-10,2024-10-29,true,A
+2024-09-04,ROI M129099,FERDEL CHILE S.A,FCL,FOB,CNTSN,Benjamín Moore,true,true,true,true,0.44,SEA,Shippter Forwarding,,2024-10-02,2024-11-18,true,C
+2024-09-04,ROA 380859,Metrica SpA,AIR,EXW,CNPVG,Ailyn Corona,true,true,true,true,0.14,AIR,MSL,,2024-10-09,,true,A
+2024-09-03,ROI M129098,ACCESORIOS INGRID SOLEDAD OLAVARRIERA SOTO EIRL,FCL,FOB,CNSHK,Ignacio Tapia,true,true,true,true,0.4,SEA,Shippter Forwarding,150,2024-09-26,2024-10-28,true,C
+2024-09-03,ROI 382113,ITALSE SPA.,LCL,EXW,MXZLO,Benjamín Moore,true,true,true,true,0.13,SEA,MSL,100,2024-10-07,2024-10-24,true,A
+2024-09-03,ROI M129096,Soc. Cimma y Saona Ltda,FCL,FOB,CNTAO,Mauricio Hernández,true,true,true,true,0.42,SEA,Shippter Forwarding,,2024-09-12,2024-10-21,true,C
+2024-09-03,ROI M129100,Aditivos e Ingredientes para Alimentos Adiplus SpA,FCL,EXW,NLRTM,Leonardo Martínez,true,false,false,true,0.35,SEA,Pluscargo,,,,false,B
+2024-09-03,ROI M129095,Grupo PB spa,LCL,FOB,CNTXG,Benjamín Moore,true,true,true,true,0.35,SEA,CHARTER LINK,100,2024-09-23,2024-11-08,true,B
+2024-09-03,ROI M129097,Grupo PB spa,LCL,FOB,CNSHA,Benjamín Moore,true,true,true,true,0.52,SEA,Team Log,,,,true,C
+2024-09-03,ROI 380331,Martínez y Díaz Spa,FCL,EXW,USLGB,Benjamín Moore,true,true,true,true,0.0,SEA,MSL,,2024-10-13,2024-11-16,true,A
+2024-09-03,ROI M129094,RIVADENEIRA Y COLLAO LTDA.,FCL,FOB,CNTAO,Leonardo Martínez,true,true,true,true,0.15,SEA,Shippter Forwarding,200,2024-10-04,2024-11-18,true,A
+2024-09-03,ROI M129093,FRAILE RODRIGUEZ Y PALAVECINOS ALIMENTOS SPA,LCL,FOB,CNTXG,Mauricio Hernández,true,true,true,true,0.32,SEA,CHARTER LINK,,2024-09-23,2024-11-08,true,B
+2024-09-03,ROI M129091,Asesorias Logisticas STA SpA,LCL,FOB,CNSHA,Mauricio Hernández,true,true,true,true,0.21,SEA,CHARTER LINK,,2024-09-25,2024-11-04,true,B
+2024-09-02,ROA 380422,SOLUCIONES INTEGRALES DIGITALES SID SPA,AIR,EXW,ESMAD,Mauricio Hernández,true,true,true,true,0.27,AIR,MSL,,2024-09-14,2024-09-15,true,B
+2024-09-02,ROI M129090,Edge SpA,FCL,FOB,CNSHK,Benjamín Moore,true,true,true,true,0.86,SEA,Shippter Forwarding,,2024-10-04,2024-11-04,true,E
+2024-09-02,ROI 380267,Edge SpA,FCL,FOB,CNSHK,Benjamín Moore,true,true,true,true,0.85,SEA,MSL,,2024-09-29,2024-11-04,true,E
+2024-09-02,ROI 380394,Sociedad Repuestos España LTDA,LCL,FOB,CNNGB,Benjamín Moore,true,true,true,true,0.33,SEA,MSL,,2024-10-03,2024-11-17,true,B
+2024-09-02,ROA 380200,SOLUCIONES INTEGRALES DIGITALES SID SPA,AIR,EXW,AUMEL,Mauricio Hernández,true,true,true,true,0.25,AIR,MSL,100,2024-09-19,2024-09-20,true,B
+2024-09-02,ROI M129089,TE GOURMET SA,LCL,EXW,DEHAM,Benjamín Moore,true,false,false,true,0.35,SEA,Team Log,100,2024-09-22,2024-10-23,false,B
+2024-09-02,ROA 380253,NULATAM CHILE SPA,AIR,EXW,ITMXP,Nicolás Larenas,true,true,true,true,0.33,AIR,MSL,250,2024-09-11,2024-09-15,true,B
+2024-08-29,ROA 383550,sociedad de inversiones el arrayan spa,AIR,EXW,CNPVG,Benjamín Moore,true,true,true,true,0.0,AIR,MSL,150,2024-09-28,2024-10-09,true,A
+2024-08-27,ROI M129092,FORZA BUSINESS GROUP SPA,LCL,FOB,CNTAO,Mauricio Hernández,true,false,false,true,0.57,SEA,CHARTER LINK,200,2024-09-12,2024-10-21,false,C
+2024-07-26,ROI 380569,Cosmoplas S.A,LCL,FOB,ITGOA,Joaquín Díaz,false,false,false,true,,SEA,MSL,,2024-09-20,2024-10-22,false,E
+2024-07-25,ROI 384332,Cosmoplas S.A,LCL,EXW,ITSPE,Joaquín Díaz,false,false,false,true,,SEA,MSL,,2024-10-10,2024-11-13,false,E
