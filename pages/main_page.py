@@ -4,6 +4,8 @@ import altair as alt
 import requests
 from functions.rod_writer import *
 from functions.charts import *
+from streamlit_extras.stylable_container import stylable_container
+
 
 # Archivo main, tiene mas sentido que desde aca solo controlar principalmente como se leen los datos
 # y la estructura de la pagina
@@ -31,14 +33,40 @@ rod = cache_read_rod()
 
 
 # MAIN PANEL
+st.title(f'Shippter Forwarding {date.today()}')
+
 left_containers = []
-left_col, right_col = st.columns([0.8, 0.2])
+left_col, right_col = st.columns([0.8, 0.2], gap="medium")
+subcol_1, subcol_2, subcol_3 = left_col.columns([0.33, 0.33, 0.33])
+
 
 
 ## LEFT COL
 with left_col:
-    st.subheader(f'Shippter Forwarding {date.today()}')
-    cont = st.container(border=True, height=650, )
+    with subcol_1:
+        with st.container(border=True, height=185):
+            st.write("OPS TOTALES")
+
+    with subcol_2:
+        with st.container(border=True, height=185):
+            st.write("OPS SEMANALES")
+
+    with subcol_3:
+        with st.container(border=True, height=185):
+            st.write("ULTIMAS OPS")
+
+    with stylable_container(
+        key="main_container",
+        css_styles="""
+        {
+            border: 1px solid white;
+            border-radius: 0.5rem;
+            padding: calc(1em - 1px);
+            box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.25);
+            }
+        """
+    ):
+        cont = st.container(border=False, height=510)
 
 
 with cont:
@@ -59,15 +87,31 @@ with cont:
 # RIGHT COL
 
 with right_col:
+    st.subheader("Col_Der MISCELANEOS", divider='gray')
 
-    with st.container(border=True, height=205) as item_1:
-        st.empty()
+    # Definir el estilo CSS
+    css_styles_cont = """
+    {
+        border: 1px solid white;
+        border-radius: 0.5rem;
+        padding: calc(1em - 1px);
+        box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.2);
+        background-color: rgba(34,33,39,255)
+    }
+    """
 
+    # Crear contenedores con un bucle
+    right_containers = []
+    for i in range(1, 4):  # Desde 1 hasta 3
+        with stylable_container(key=f"right_{i}", css_styles=css_styles_cont):
+            container = st.container(border=False, height=183)
+            right_containers.append(container)
 
-    with st.container(border=True, height=205) as item_2:
-        st.empty()
+with right_containers[0]:
+    st.write("SAAS")
 
+with right_containers[1]:
+    st.write("MAPA?")
 
-    with st.container(border=True, height=205) as item_3:
-        st.empty()
-
+with right_containers[2]:
+    st.write("VENDEDOR TOP?")

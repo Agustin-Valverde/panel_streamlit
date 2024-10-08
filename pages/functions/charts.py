@@ -7,6 +7,8 @@ import polars as pl
 # Para esta iteración el rod no está filtrado de ninguna forma y ya esta .collect()
 # Posiblemente habrá que agregar cache en algunas transformaciones si se vuelve muy lento
 
+colors = ["#27b9a9", "#c1bbb4", "#2d6e68" , "#0a0a0a", "#394949"]
+
 def all_services_bar_graph(rod, height):
 
     df_all_sevices = (
@@ -19,10 +21,17 @@ def all_services_bar_graph(rod, height):
 
 
     bar_all_services = (
-        alt.Chart(df_all_sevices).mark_bar().encode(
+        alt.Chart(df_all_sevices).mark_bar(stroke="white").encode(
             alt.X('total:Q', stack="zero", title=None, axis = alt.Axis(ticks=False, labels=False)),
-            alt.Color('all_services:N', scale=alt.Scale(scheme='dark2'),
-                      legend = alt.Legend(
+            alt.Color('all_services:N',
+                      legend = None),
+        )
+    )
+
+    legend_only = (
+        alt.Chart(df_all_sevices).mark_rect(opacity=0).encode(
+            alt.Color('all_services:N', scale=alt.Scale(range=colors),
+                    legend = alt.Legend(
                           orient='left',
                           title="Servicios",
                           labelFontSize=20,
@@ -31,7 +40,7 @@ def all_services_bar_graph(rod, height):
                           titlePadding = 15,
                           padding=28,
                           strokeColor="white",                          
-                      )),
+                      ))
         )
     )
 
@@ -62,12 +71,10 @@ def all_services_bar_graph(rod, height):
         color=alt.value('white')
     )
 
-    graph_all_services = ((bar_all_services + total_text + stack_labels)
+    graph_all_services = ((legend_only + bar_all_services + stack_labels)
                           .configure_axis(grid=False, domain=False)
-                          .properties(
-                              height = height,
-                              #title = alt.TitleParams(text = 'Servicios', align='center', fontSize=20)
-                              )
+                          .properties(height = height)
+                          .resolve_legend(color='independent')
                           )
 
     return graph_all_services
@@ -83,10 +90,17 @@ def ratio_graph(rod: pl.DataFrame, height):
     print(df_ratio)
 
     ratios_bar = (
-        alt.Chart(df_ratio).mark_bar().encode(
+        alt.Chart(df_ratio).mark_bar(stroke="white").encode(
             alt.X('total:Q', stack="zero", title=None, axis = alt.Axis(ticks=False, labels=False)),
-            alt.Color('ratio:N', scale=alt.Scale(scheme='dark2'),
-                      legend = alt.Legend(
+            alt.Color('ratio:N',
+                      legend = None)
+        )
+    )
+
+    legend_only = (
+        alt.Chart(df_ratio).mark_rect(opacity=0).encode(
+            alt.Color('ratio:N', scale=alt.Scale(range = colors),
+                    legend = alt.Legend(
                           orient='left',
                           title="Ratio",
                           labelFontSize=15,
@@ -129,7 +143,10 @@ def ratio_graph(rod: pl.DataFrame, height):
         color=alt.value('white')
     )
 
-    graph_all_ratios = (ratios_bar + stack_labels + total_text).properties(height = height).configure_axis(grid=False, domain=False)
+    graph_all_ratios = ((legend_only + ratios_bar + stack_labels)
+                        .properties(height = height)
+                        .configure_axis(grid=False, domain=False)
+                        .resolve_legend(color='independent'))
 
     return(graph_all_ratios)
 
@@ -144,22 +161,30 @@ def type_graph(rod: pl.DataFrame, height):
     print(df_type)
 
     type_bar = (
-        alt.Chart(df_type).mark_bar().encode(
+        alt.Chart(df_type).mark_bar(stroke= "white").encode(
             alt.X('total:Q', stack="zero", title=None, axis = alt.Axis(ticks=False, labels=False)),
-            alt.Color('type:N', scale=alt.Scale(scheme="dark2"),
-                      legend = alt.Legend(
-                          orient='left',
-                          title="Tipo",
-                          labelFontSize=15,
-                          titleFontSize=30,
-                          labelOffset = 5,
-                          titlePadding = 13,
-                          padding=30,
-                          strokeColor="black",
-                          columns = 2                     
-                      ))
+            alt.Color('type:N',
+                      legend = None)
         )
     )
+
+    legend_only = (
+        alt.Chart(df_type).mark_rect(opacity=0).encode(
+            alt.Color('type:N', scale=alt.Scale(range = colors),
+                    legend=alt.Legend(
+                        orient='left',
+                        title="Tipo",
+                        labelFontSize=15,
+                        titleFontSize=30,
+                        labelOffset=5,
+                        titlePadding=13,
+                        padding=30,
+                        columns=2,
+                        strokeColor="white",
+                    ))
+        )
+    )
+
 
     stack_labels = (
         alt.Chart(df_type).mark_text(
@@ -189,6 +214,10 @@ def type_graph(rod: pl.DataFrame, height):
         color=alt.value('white')
     )
 
-    graph_all_type = (type_bar + stack_labels + total_text).properties(height = height).configure_axis(grid=False, domain=False)
+    graph_all_type = ((legend_only + type_bar + stack_labels)
+                      .properties(height = height)
+                      .configure_axis(grid=False, domain=False)
+                      .resolve_legend(color='independent') 
+                      )
 
     return(graph_all_type)
